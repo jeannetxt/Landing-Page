@@ -107,9 +107,14 @@ button {
 /* SECOND SECTION */
 
 .secondsection {
-    margin: 50px;
     width:100%;
+    margin: 0px;
+    padding:0px;
     
+}
+
+.content2 {
+    margin:50px;
 }
 
 .abilities {
@@ -120,4 +125,22 @@ button {
 .abilitiesdesc {
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.abilitiespic {
+    width:300px;
+    height:auto;
+    border-radius: 5%;
+    border-style: dashed;
+    border:2px;
+    border-color: black;
+    box-shadow: 10px 10px 10px rgba(220, 197, 223, 0.712);
+    margin-bottom:25px;
+}
+
+h2 {
+    font-size: 38px;
+    text-align: center;
 }
