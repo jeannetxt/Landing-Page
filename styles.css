@@ -6,14 +6,10 @@ body {
     padding:0px;
     margin:0px;
 }
+/* NAVBAR */
 
-.icon {
-    height:50px;
-    width:auto;
-}
-
-.topheader, .bottomheader {
-    background-color: #1f2937;
+.topheader {
+    background-color: #320a42;
 }
 
 .topheader {
@@ -22,13 +18,17 @@ body {
     align-items:center;
     width: 100%;
     padding: 15px;
-
 }
 
 ul {
     list-style: none;
     display:flex;
     gap: 15px;
+}
+
+.leftnav {
+    font-size:24px;
+    color:#f9faf8;
 }
 
 .rightnav {
@@ -45,7 +45,11 @@ ul {
     color: #e5e7eb;
 }
 
+/* BOTTOM HEADER */
+
+
 .bottomheader {
+    background-image: url(https://upload-os-bbs.hoyolab.com/upload/2021/07/08/13397772/709e87e0886b803b848bf44c2a638b6c_8437543062021056518.jpg);
     display:flex;
     justify-content:center;
     align-content:flex-start;
@@ -58,28 +62,62 @@ h1 {
     color: #f9faf8;
 }
 
-p {
-    font-size: 18px;
+.bottomheader p {
+    font-size: 20px;
     color: #e5e7eb;
 }
 
-button {
-    background-color: #3882f6;
-    color: #efe7eb;
-    border-radius: 15px;
-    wdith:50px;
-    border: 0px;
+.border {
+    padding:20px;
+    border: 1px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: hsl(286, 90%, 23%);
+    background-color: rgba(80, 76, 76, 0.5);
+    box-shadow: 10px 10px 10px rgba(220, 197, 223, 0.712); 
+    width:50%;
+    margin: 50px;
 }
 
-.leftcont{
+.content {
+    display:flex;
+}
+.leftcont {
+    display: flex;
+    flex-direction: column;
+    margin:50px 0px 50px 0px;
+}
+
+button {
+    background-color: #af3eae;
+    border: 0px;
+    padding: 20px;
+}
+
+.rightcont {
+    display: flex;
+    margin-left:50px;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+
+/* SECOND SECTION */
+
+.secondsection {
+    margin: 50px;
+    width:100%;
+    
+}
+
+.abilities {
+    display:flex;
+    justify-content:space-around;
+}
+
+.abilitiesdesc {
     display:flex;
     flex-direction:column;
-    margin-left:10%;
-    margin-right:50px;
-
 }
-
-.rightcont{
-    margin-right:10%;
-}
-
