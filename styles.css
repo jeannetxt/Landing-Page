@@ -16,7 +16,6 @@ body {
     display:flex;
     justify-content:space-around;
     align-items:center;
-    width: 100%;
     padding: 15px;
 }
 
@@ -88,10 +87,13 @@ h1 {
     margin:50px 0px 50px 0px;
 }
 
-button {
+.leftcont button {
     background-color: #af3eae;
     border: 0px;
-    padding: 20px;
+    border-radius:5px;
+    width:120px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 .rightcont {
@@ -136,4 +138,47 @@ h2 {
     font-size: 38px;
     text-align: center;
     padding-bottom: 50px;
+}
+
+
+/* THIRD SECTION */
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    margin: 100px 250px 100px 250px;
+}
+
+
+/* FOURTH SECTION */
+
+.fourthsection {
+    background-color: #f1d3f1;
+    padding: 100px;
+}
+
+.bg {
+    background-color: #af3eae;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 50px;
+    color: #e4d8e9;
+}
+
+.signupbutton button {
+    border:1px;
+    border-color: #ffffff;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #320a42;
+    color: #e4d8e9;
+    text-align:center;
+    padding: 30px;
 }
