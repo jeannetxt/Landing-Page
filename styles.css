@@ -107,26 +107,18 @@ button {
 /* SECOND SECTION */
 
 .secondsection {
-    width:100%;
-    margin: 0px;
-    padding:0px;
-    
-}
-
-.content2 {
-    margin:50px;
+    background-color: #f1d3f1;
+    padding: 50px;
 }
 
 .abilities {
+    width: 100%;
     display:flex;
-    justify-content:space-around;
-}
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items:flex-start;
 
-.abilitiesdesc {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
 }
 
 .abilitiespic {
@@ -136,11 +128,12 @@ button {
     border-style: dashed;
     border:2px;
     border-color: black;
-    box-shadow: 10px 10px 10px rgba(220, 197, 223, 0.712);
+    box-shadow: 10px 10px 10px rgba(118, 101, 119, 0.712);
     margin-bottom:25px;
 }
 
 h2 {
     font-size: 38px;
     text-align: center;
+    padding-bottom: 50px;
 }
