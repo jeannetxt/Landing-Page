@@ -48,11 +48,12 @@ ul {
 
 
 .bottomheader {
-    background-image: url(https://upload-os-bbs.hoyolab.com/upload/2021/07/08/13397772/709e87e0886b803b848bf44c2a638b6c_8437543062021056518.jpg);
+    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/genshin-impact-inazuma-3.jpg);
     display:flex;
     justify-content:center;
     align-content:flex-start;
-    width:100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1 {
@@ -68,14 +69,14 @@ h1 {
 
 .border {
     padding:20px;
-    border: 1px;
+    border: 3px;
     border-radius: 50px;
-    border-style: dashed;
+    border-style: double;
     border-color: hsl(286, 90%, 23%);
     background-color: rgba(80, 76, 76, 0.5);
-    box-shadow: 10px 10px 10px rgba(220, 197, 223, 0.712); 
+    box-shadow: 10px 10px 10px rgba(154, 138, 156, 0.712); 
     width:50%;
-    margin: 50px;
+    margin:50px;
 }
 
 .content {
@@ -156,6 +157,8 @@ h2 {
 .fourthsection {
     background-color: #f1d3f1;
     padding: 100px;
+    display:flex;
+    justify-content: center;
 }
 
 .bg {
@@ -166,6 +169,7 @@ h2 {
     align-items:center;
     padding: 50px;
     color: #e4d8e9;
+    width: 70%;
 }
 
 .signupbutton button {
