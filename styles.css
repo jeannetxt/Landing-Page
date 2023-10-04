@@ -9,7 +9,7 @@ body {
 /* NAVBAR */
 
 .topheader {
-    background-color: #320a42;
+    background-color: #3D246C;
 }
 
 .topheader {
@@ -51,7 +51,7 @@ ul {
     background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/genshin-impact-inazuma-3.jpg);
     display:flex;
     justify-content:center;
-    align-content:flex-start;
+    align-content:center;
     height: 100vh;
     width: 100vw;
 }
@@ -68,24 +68,29 @@ h1 {
 }
 
 .border {
-    padding:20px;
     border: 3px;
     border-radius: 50px;
     border-style: double;
     border-color: hsl(286, 90%, 23%);
     background-color: rgba(80, 76, 76, 0.5);
     box-shadow: 10px 10px 10px rgba(154, 138, 156, 0.712); 
-    width:50%;
-    margin:50px;
+    width:40%;
+    height: 40%;
+    margin-top:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
 }
 
 .content {
     display:flex;
 }
+
+
 .leftcont {
     display: flex;
     flex-direction: column;
-    margin:50px 0px 50px 0px;
 }
 
 .leftcont button {
@@ -99,18 +104,15 @@ h1 {
 
 .rightcont {
     display: flex;
-    margin-left:50px;
     justify-content:center;
     align-items: center;
 }
 
 
-
-
 /* SECOND SECTION */
 
 .secondsection {
-    background-color: #f1d3f1;
+    background-color: #ffdbc3;
     padding: 50px;
 }
 
@@ -121,9 +123,16 @@ h1 {
     flex-grow: 1;
     justify-content: space-around;
     align-items:flex-start;
+    color: #3d3030;
 
 }
 
+.abilitiesdesc {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
 .abilitiespic {
     width:300px;
     height:auto;
@@ -139,30 +148,36 @@ h2 {
     font-size: 38px;
     text-align: center;
     padding-bottom: 50px;
+    color: #9d76c1;
 }
 
 
 /* THIRD SECTION */
 
+.thirdsection {
+    background-color: #5C4B99;
+
+}
+
 .quote p {
     font-size: 36px;
     font-weight: lighter;
-    color: #1f2937;
-    margin: 100px 250px 100px 250px;
+    color: #ececc6;
+    padding: 100px 250px 100px 250px;
 }
 
 
 /* FOURTH SECTION */
 
 .fourthsection {
-    background-color: #f1d3f1;
+    background-color: #ffdbc3;
     padding: 100px;
     display:flex;
     justify-content: center;
 }
 
 .bg {
-    background-color: #af3eae;
+    background-color: #9F91CC;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
@@ -173,15 +188,16 @@ h2 {
 }
 
 .signupbutton button {
-    border:1px;
-    border-color: #ffffff;
+    border-color: #f3dfdf;
+    background-color: transparent;
+    padding:5px;
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: #320a42;
+    background-color: #3D246C;
     color: #e4d8e9;
     text-align:center;
     padding: 30px;
