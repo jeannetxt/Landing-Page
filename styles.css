@@ -1,5 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
+    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/genshin-impact-inazuma-3.jpg);
+
 }
 
 * {
@@ -8,9 +10,7 @@ body {
 }
 /* NAVBAR */
 
-.topheader {
-    background-color: #3D246C;
-}
+
 
 .topheader {
     display:flex;
@@ -44,11 +44,14 @@ ul {
     color: #e5e7eb;
 }
 
+.rightnav a:hover {
+    text-shadow: 2px 2px 9px #ffffff;
+}
+
 /* BOTTOM HEADER */
 
 
 .bottomheader {
-    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/genshin-impact-inazuma-3.jpg);
     display:flex;
     justify-content:center;
     align-content:center;
@@ -60,7 +63,7 @@ h1 {
     font-size:48px;
     font-weight:bolder;
     color: #f9faf8;
-    text-shadow: 10px 10px 70px #ffffff;
+    text-shadow: 3px 3px 3px #423939;
 }
 
 .bottomheader p {
@@ -100,8 +103,8 @@ h1 {
     border: 0px;
     border-radius:5px;
     width:120px;
-    padding-top:10px;
-    padding-bottom: 10px;
+    margin-top:10px;
+    padding:10px 0px 10px 0px;
 }
 
 .leftcont button:hover {
@@ -151,17 +154,17 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 50px;
-    color: #9d76c1;
+    color: #5C4B99;
 }
 
 
 /* THIRD SECTION */
 
 .thirdsection {
-    background-color: #5C4B99;
+    background-color: #9F91CC ;
 
 }
 
@@ -183,7 +186,7 @@ h2 {
 }
 
 .bg {
-    background-color: #9F91CC;
+    background-color: #5C4B99;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
@@ -205,15 +208,15 @@ h2 {
 
 .signupbutton button:hover {
     background-color: white;
-    color: #9F91CC;
+    color: #5C4B99;
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: #3D246C;
+    background-image: url(https://www.pockettactics.com/wp-content/sites/pockettactics/2022/10/genshin-impact-inazuma-3.jpg);
     color: #e4d8e9;
     text-align:center;
-    padding: 30px;
+    padding: 20px;
 }
